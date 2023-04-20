@@ -13,9 +13,6 @@ const getCurrentDay = () => {
     "Nov",
     "Dec",
   ];
-  var now = new Date();
-  var month = months[now.getMonth()];
-  var date = now.getDate();
   var weekday = new Array(7);
   weekday[0] = "Sunday";
   weekday[1] = "Monday";
@@ -25,6 +22,9 @@ const getCurrentDay = () => {
   weekday[5] = "Friday";
   weekday[6] = "Satureday";
 
+  var now = new Date();
+  var month = months[now.getMonth()];
+  var date = now.getDate();
   days = weekday[now.getDay()];
   console.log(days);
   console.log(month);
