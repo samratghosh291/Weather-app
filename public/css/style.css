@@ -143,7 +143,7 @@ body{
 
 
 .temp_form{
-    width: 40%;
+    width: 60%;
     position: relative;
     margin: 4rem auto 6rem;
 }
@@ -155,7 +155,7 @@ body{
     color: white;
     outline: none;
     border: none;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     border-radius: 3rem;
 }
 ::placeholder{
@@ -308,11 +308,18 @@ footer p{
         justify-content: center;
         align-items: center;
     }
+    .main_header_left h1{
+        text-align: center;
+    }
     .main_header_right{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .temp_form{
+        width: 80%;
     }
     
 /* @media(max-width:768px){
@@ -331,14 +338,20 @@ footer p{
 }
 
 
-@media(max-width:480px){
+@media(max-width:576px){
 
     .temp_form{
-        width: 80%;
+        width: 75%;
+    }
+    .main_header_left h1{
+        text-align: center;
     }
 
 
-
+    .tempInfo{
+        width: 80%;
+        margin: 0px auto;
+    }
 
 
 
