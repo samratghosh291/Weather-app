@@ -104,6 +104,7 @@ body{
 
 .text_clr{
     color: var(--main-color);
+    font-size: larger;
 }
 .main_header_left button{
     border: none;
@@ -142,9 +143,9 @@ body{
 
 
 .temp_form{
-    width: 60%;
+    width: 40%;
     position: relative;
-    margin: 10rem auto 6rem;
+    margin: 4rem auto 6rem;
 }
 
 .temp_form #cityName{
@@ -280,9 +281,15 @@ footer p{
 
 }
 
+.name-samrat{
+    color:var(--main-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
 
-/* responsive code  */
-/* @media(max-width:768px){
+
+
+ /* @media(max-width:768px){
     .main_header_left{
         margin: 5rem 0;
         height: auto;
@@ -321,5 +328,27 @@ footer p{
         justify-content: center;
         align-items: center;
     } */
+}
+
+
+@media(max-width:480px){
+
+    .temp_form{
+        width: 80%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
